@@ -21,6 +21,17 @@
     </script>
 </head>
 <body>
+  <div class="fixed z-100 bottom-10 right-10 bg-green-400 p-4 rounded-full">
+    <svg data-v-1dc5c933="" focusable="false" aria-hidden="true" viewBox="0 0 28 32" width="22.4" height="25.6"><path data-v-1dc5c933="" fill="white" d="M28,32 C28,32 23.2863266,30.1450667 19.4727818,28.6592 L3.43749107,28.6592 C1.53921989,28.6592
+        0,27.0272 0,25.0144 L0,3.6448 C0,1.632 1.53921989,0 3.43749107,0 L24.5615088,0 C26.45978,0
+        27.9989999,1.632 27.9989999,3.6448 L27.9989999,22.0490667 L28,22.0490667 L28,32 Z M23.8614088,20.0181333
+        C23.5309223,19.6105242 22.9540812,19.5633836 22.5692242,19.9125333 C22.5392199,19.9392 19.5537934,22.5941333
+        13.9989999,22.5941333 C8.51321617,22.5941333 5.48178311,19.9584 5.4277754,19.9104 C5.04295119,19.5629428
+        4.46760991,19.6105095 4.13759108,20.0170667 C3.97913051,20.2124916 3.9004494,20.4673395 3.91904357,20.7249415
+        C3.93763774,20.9825435 4.05196575,21.2215447 4.23660523,21.3888 C4.37862552,21.5168 7.77411059,24.5386667
+        13.9989999,24.5386667 C20.2248893,24.5386667 23.6203743,21.5168 23.7623946,21.3888 C23.9467342,21.2215726
+        24.0608642,20.9827905 24.0794539,20.7254507 C24.0980436,20.4681109 24.0195551,20.2135019 23.8614088,20.0181333 Z"></path></svg>
+  </div>
     <nav class="fixed top-0 z-50 w-full bg-gradient-to-r from-[#007D8C] via-[#02B57C] to-[#007D8C]">
         <div class="px-3 py-3 lg:px-5 lg:pl-3">
           <div class="flex items-center justify-between">
@@ -159,6 +170,14 @@
                       <span class="ml-3">Treasure</span>
                    </a>
                 </li>
+                <li>
+                  <a href="#" id="faq" onclick="ubahId(this.id)" class="flex items-center p-2 text-gray-900 transition duration-75">
+                     <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 20">
+                        <path d="M16 14V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v15a3 3 0 0 0 3 3h12a1 1 0 0 0 0-2h-1v-2a2 2 0 0 0 2-2ZM4 2h2v12H4V2Zm8 16H3a1 1 0 0 1 0-2h9v2Z"/>
+                     </svg>
+                     <span class="ml-3">FAQ</span>
+                  </a>
+               </li>
              </ul>
 
         </div>
@@ -173,8 +192,9 @@
                     <h2 id="judul" class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
                     <p class="mt-2 text-lg leading-8 text-gray-600">Learn how to grow your business with our expert advice.</p>
                   </div>
-                  <div class="mx-auto mt-4 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-                    <article class="flex max-w-xl flex-col items-start justify-between shadow-md p-4 border-2 rounded-md">
+                  <div id="isi" class="mx-auto mt-4 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                    
+                      <article class="flex max-w-xl flex-col items-start justify-between shadow-md p-4 border-2 rounded-md">
                       <div class="flex items-center gap-x-4 text-xs">
                         <time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
                         <a href="#" class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Marketing</a>
@@ -255,9 +275,68 @@
                           </div>
                         </div>
                       </article>
+                  
+                    
+                    
               
                     <!-- More posts... -->
                   </div>
+				  <div id="isifaq" class="p-2 hidden">
+                        
+					
+<div id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white text-black" data-inactive-classes="">
+	<h2 id="accordion-flush-heading-1">
+	  <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left border-b border-gray-200 dark:border-gray-700" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
+		<span>What is Mediscover ?</span>
+		<svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+		  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+		</svg>
+	  </button>
+	</h2>
+	<div id="accordion-flush-body-1" class="hidden" aria-labelledby="accordion-flush-heading-1">
+	  	<div class="py-5 border-b border-gray-200 dark:border-gray-700 px-4">
+			<p class="mb-2 text-gray-500 dark:text-gray-400">Mediscover adalah Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione cum, laboriosam similique ipsum hic.</p>
+			<p class="mb-2 text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sequi tempora voluptatem laudantium molestiae quasi doloribus reiciendis eligendi incidunt corporis!</p>
+		</div>
+	</div>
+	<h2 id="accordion-flush-heading-2">
+	  <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
+		<span>Is there a Figma file available?</span>
+		<svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+		  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+		</svg>
+	  </button>
+	</h2>
+	<div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+	  <div class="py-5 border-b border-gray-200 dark:border-gray-700 px-4">
+		<p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
+		<p class="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/" class="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a> based on the utility classes from Tailwind CSS and components from Flowbite.</p>
+	  </div>
+	</div>
+	<h2 id="accordion-flush-heading-3">
+	  <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
+		<span>What are the differences between Flowbite and Tailwind UI?</span>
+		<svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+		  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+		</svg>
+	  </button>
+	</h2>
+	<div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
+	  <div class="py-5 border-b border-gray-200 dark:border-gray-700 px-4">
+		<p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
+		<p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
+		<p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
+		<ul class="pl-5 text-gray-500 list-disc dark:text-gray-400">
+		  <li><a href="https://flowbite.com/pro/" class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
+		  <li><a href="https://tailwindui.com/" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
+		</ul>
+	  </div>
+	</div>
+  </div>
+  
+					</div>
+
+				</div>
                 </div>
               </div>
               
@@ -268,11 +347,26 @@
     </div>
     <script>
         function ubahId(id) {
-            // Ambil teks dari href
-            var hrefText = document.getElementById(id).textContent;
-            
-            // Ubah id elemen menjadi teks dari href
-            document.getElementById('judul').textContent = hrefText;
+			var hrefText = document.getElementById(id).textContent;
+
+			// Periksa apakah id adalah "faq"
+			if (id === "faq") {
+			// Sembunyikan elemen dengan id "isi"
+			document.getElementById('isi').classList.add("hidden");
+
+			// Tampilkan elemen dengan id "isifaq"
+			document.getElementById('isifaq').classList.remove("hidden");
+			} else {
+			// Jika id bukan "faq", tampilkan elemen dengan id "isi"
+			document.getElementById('isi').classList.remove("hidden");
+
+			// Sembunyikan elemen dengan id "isifaq"
+			document.getElementById('isifaq').classList.add("hidden");
+			}
+
+			// Ubah teks judul sesuai dengan href
+			document.getElementById('judul').textContent = hrefText;
+			
         }
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
